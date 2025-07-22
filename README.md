@@ -1,1 +1,5 @@
 # Software-and-computing-
+This project is part of my master thesis, in collaboration with ALICE. The codes inserted here are tasked one to do Particle Identification (readtree.cxx) while the other is generating data using Monte Carlo Method (readtreeMC.cxx) in order to be sure about the Particle Identification. 
+Subsequently it is possible to verify the data analysis extrapolating the revelation efficiencies from one code and the raw spectra from the other, the rapport between these two gives us the completa spectra of the particles involved (in this case: pi, ka, pr).
+The data used for the analysis comes from ALICE Run 3 with pp collisions at 13 TeV. The data tree unfortunately is too big to be uploaded here, but i'll be uploading the images it generates in order to have an idea of what is supposed to come out.
+This project is still undergoing development, as of now the objective is to perform Particle Identification with Bayesian statiscs and verifying that it could lead to improved results compared to the standard method.
